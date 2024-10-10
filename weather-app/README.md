@@ -11,7 +11,7 @@ Technologies used:
   Vite
 
 # Project Structure
-`./dist` is the end product, built for production
+The code for the project exists in the ./weather-app folder, which contains the following structure:
 `./src` contains the builk of the code
  L `./assets` has folders to store images and styles, so any PNG and CSS files will be here
  L `./components` has the components
