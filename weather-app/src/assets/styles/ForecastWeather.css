@@ -1,0 +1,47 @@
+.accordion-details {
+  position: relative;
+  margin: 10px;
+  padding: 0px;
+  width: 100%;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+.collapse-button {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  background-color: none;
+}
+
+.collapse-button:hover {
+  background-color: lightgray;
+}
+
+.accordion-details .temp {
+  font-weight: bold;
+  margin-right: 2%;
+  width: 5%;
+  min-width: 40px;
+  text-align: left;
+}
+
+.accordion-details .detail {
+  font-size: 18px;
+  width: 10%;
+  min-width: 80px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.phrase {
+  text-transform: capitalize;
+}
+
+.day-divider {
+  margin-top: 20px;
+}

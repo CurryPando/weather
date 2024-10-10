@@ -1,0 +1,16 @@
+.nav-item-wrapper {
+  display: flex;
+  margin:10px;
+  background-color: lightgray;
+  border-radius: 100px;
+}
+
+.unfavorite-button {
+  padding: 10px;
+  padding-right: 15px;
+}
+
+.nav {
+  margin-left: 5%;
+  margin-right: 5%;
+}

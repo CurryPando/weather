@@ -1,0 +1,77 @@
+.results-list {
+  z-index: 10;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 0px 20px lightgray;
+  right: 5%;
+  width: calc(40% - 110px);
+  max-width: 700px;
+  min-width: 200px;
+}
+
+.result {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+}
+
+.result-city {
+  padding: 10px;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.result-city:hover {
+  background-color: lightgray;
+}
+
+.favorite {
+  flex-grow: 0;
+  padding: 10px;
+  text-align: center;
+  line-height: 100%;
+}
+
+.favorite:hover {
+  background-color: lightgray;
+}
+
+.navbar-wrapper {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search-params form {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  flex-grow: 1;
+  max-width: 700px;
+  min-width: 200px;
+}
+
+.container-fluid .navbar-brand {
+  margin-left: 5%;
+}
+
+.container-fluid .search-params {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.search-params .btn-group {
+  position: relative;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.search-params {
+  width: 40%;
+  max-width: 800px;
+  min-width: 300px;
+  margin-right: 5%;
+}
