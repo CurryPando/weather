@@ -11,13 +11,21 @@ Technologies used:
   Vite
 
 # Project Structure
+
 The code for the project exists in the ./weather-app folder, which contains the following structure:
+
 `./src` contains the builk of the code
+
  L `./assets` has folders to store images and styles, so any PNG and CSS files will be here
+
  L `./components` has the components
+
    L `./Common` has components that are used multiple times, or that could conceivable be used multiple times in a more complex application
+
    L `./Navbar` has components used in the Navbar
+
  L `./utility` as typescript files that are used to keep hooks, common functions, and common variables
+ 
    L `./hooks` keep all of the hooks (useWeatherData)
 
 # How to run
