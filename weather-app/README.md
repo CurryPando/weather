@@ -16,17 +16,17 @@ The code for the project exists in the ./weather-app folder, which contains the 
 
 `./src` contains the builk of the code
 
-&ensp;L `./assets` has folders to store images and styles, so any PNG and CSS files will be here
+&emsp;L `./assets` has folders to store images and styles, so any PNG and CSS files will be here
 
-&ensp;L `./components` has the components
+&emsp;L `./components` has the components
 
-&emsp;L `./Common` has components that are used multiple times, or that could conceivable be used multiple times in a more complex application
+&emsp;&emsp;L `./Common` has components that are used multiple times, or that could conceivable be used multiple times in a more complex application
 
-&emsp;L `./Navbar` has components used in the Navbar
+&emsp;&emsp;L `./Navbar` has components used in the Navbar
 
-&ensp;L `./utility` as typescript files that are used to keep hooks, common functions, and common variables
+&emsp;L `./utility` as typescript files that are used to keep hooks, common functions, and common variables
 
-&emsp;L `./hooks` keep all of the hooks (useWeatherData)
+&emsp;&emsp;L `./hooks` keep all of the hooks (useWeatherData)
 
 # How to run
 
