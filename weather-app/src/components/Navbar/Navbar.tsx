@@ -68,7 +68,7 @@ function NavBar() {
                 type="search"
                 placeholder="Terre Haute, Indiana"
                 aria-label="Search"
-                onChange={(e) => handleChange(e.target.value)}></input>
+                onChange={ (e) => handleChange(e.target.value) }></input>
             </form>
             <ToggleUnits />
           </div>

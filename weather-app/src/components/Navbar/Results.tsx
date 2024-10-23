@@ -44,9 +44,9 @@ function Results (
           }
 
           return (
-            <div className="result" key={index}>
-              <div className="result-city" onClick={handleClick}>{resultName}</div>
-              <div className="favorite" onClick={handleFavorite}>&#9734;</div>
+            <div className="result" key={ index }>
+              <div className="result-city" onClick={ handleClick }>{ resultName }</div>
+              <div className="favorite" onClick={ handleFavorite }>&#9734;</div>
             </div>
           );
         }) // end results.map
