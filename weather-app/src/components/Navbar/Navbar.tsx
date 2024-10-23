@@ -62,7 +62,7 @@ function NavBar() {
             Weather
           </a>
           <div className="search-params">
-            <form className="d-flex" role="search" onSubmit={searchLocation}>
+            <form className="d-flex" role="search" onSubmit={ searchLocation }>
               <input
                 className="form-control me-2"
                 type="search"
